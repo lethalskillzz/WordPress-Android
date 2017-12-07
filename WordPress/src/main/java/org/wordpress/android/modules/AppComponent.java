@@ -240,6 +240,8 @@ public interface AppComponent extends AndroidInjector<WordPress> {
 
     void inject(HtmlToSpannedConverter object);
 
+    void inject(WordPressGlideModule object);
+
     // Allows us to inject the application without having to instantiate any modules, and provides the Application
     // in the app graph
     @Component.Builder
